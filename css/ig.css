@@ -1,0 +1,56 @@
+.mensagem { display: none; position: absolute; width: 100%; top: 50%; margin-top: -50px; }
+.mensagem h3{ margin: 0; margin-bottom: 10px; }
+.corpo{display: block;}
+body{ background-color: #EEE; }
+.painel { margin-top: 10%; }
+.container-login { width: 800px; margin: 0 auto; }
+.input-login { width: 400px !important; color: #FFF; padding-left: 5px !important; }
+.input-login-r { left: 365px !important; }
+.menu { position: fixed; max-height: none; min-height: 100%; height: 100%; }
+.lag { width: 25%; padding: 0px; }
+.full { width: 100% !important; max-width: none; }
+.titulo-menu { padding-left: 50px; padding-top: 10px; }
+.menu-pagina { list-style: none; padding: 0 !important; margin: none; margin-left: 0px; }
+.menu-pagina li{ padding: 10px 0; padding-left: 50px; }
+.menu-pagina a{ color: #FFF !important; }
+.menu-pagina li:hover{ background: #78AA1C none repeat scroll 0% 0% !important; }
+.menu-paginaa li:hover{ background: #a20025 none repeat scroll 0% 0% !important; }
+
+.display-pesquisa { width: 100%; position: absolute; z-index: 999; margin-top: 5px; color: #000; }
+.display-pesquisa .linha { background-color: #FFF; padding: 15px; }
+.display-pesquisa .linha:hover{ background: #647687 none repeat scroll 0% 0% !important; cursor: pointer; }
+.display-pesquisa .titulo-linha { width: 100%; background: #EEE none repeat scroll 0% 0% !important; padding: 5px; padding-left: 15px; padding-right: 15px; }
+
+.display-membro { width: 100%; position: absolute; z-index: 999; margin-top: 5px; color: #000; margin-left: 26%; }
+.display-membro .linha { background-color: #FFF; padding: 15px; }
+.display-membro .linha:hover{ background: #647687 none repeat scroll 0% 0% !important; cursor: pointer; }
+.display-membro .titulo-linha { width: 100%; background: #EEE none repeat scroll 0% 0% !important; padding: 5px; padding-left: 15px; padding-right: 15px; }
+
+.editor{ padding-left: 30px; margin-top: 30px; margin-bottom: 20px; }
+.editor .input-control { width: 60% !important; }
+.editor h1{ color: #003E00; font-size: 170%; margin-bottom: 20px; }
+.editor h3{ color: #003E00; font-size: 170%; margin-top: -15px; margin-bottom: 20px; }
+.editor div input,.editor div select,.editor div textarea{ margin-top: 5px; margin-bottom: 10px; }
+.editor div .button { position: relative !important; }
+.extendText { height: 120px !important; text-align: justify; }
+.editor div #local { height: auto !important; }
+.editor div .hora { width: 60px; margin-top: 20px; margin-left: 5px; height: 40px; text-align: right; }
+.editor div b{ font-size: 20px !important; padding-left: 5px; vertical-align: -10px;}
+
+.painelInput { margin-left: 20px; }
+.painelInput .input-control { width: 100%; }
+
+.buttonSmall { padding: 0px !important; margin: 0px !important; height: 20px !important; width: 20px !important; }
+
+@media (max-width: 640px){
+	.corpo{ display: none; }
+	.mensagem { display: block; }
+}
+@media (max-height: 340px){
+	.corpo{ display: none; }
+	.mensagem { display: block; }
+}
+
+
+.titulo-input{ position: absolute; font-size: 11px; margin-top: -13px; margin-left: 5px; }
+.espacoBot10 { padding-bottom: 10px; }
